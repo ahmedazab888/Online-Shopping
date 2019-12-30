@@ -7,6 +7,5 @@ def index(request):
     return HttpResponse('HelloWorld!')
 
 
-def news(request):
-    return HttpResponse('New Products here!')
-
+def new(request):
+    return HttpResponse('New Products')
